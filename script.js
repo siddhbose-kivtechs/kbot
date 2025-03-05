@@ -5,8 +5,8 @@ const ContentChat = document.getElementsByClassName("ContentChat")[0];
 const send1 = document.getElementById("send1");
 const send2 = document.getElementById("send2");
 
-// Server URL
-const SERVER_URL = "https://log-api-hono.vercel.app/api/chat"; //  VERIFY THIS URL IS CORRECT FOR YOUR DEPLOYED API
+// Server URL 
+const SERVER_URL = "https://hono-chat-api.vercel.app/api/chat";
 
 // Event Listeners
 send_icon.addEventListener("click", SendMsgUser);
