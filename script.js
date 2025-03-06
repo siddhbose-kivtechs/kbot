@@ -6,7 +6,7 @@ const send1 = document.getElementById("send1");
 const send2 = document.getElementById("send2");
 
 // Server URL 
-const SERVER_URL = "https://chat-hono-server.vercel.app/api/chat";
+const SERVER_URL = "https://hono-vercel-chat.vercel.app/api/chat";
 
 // Event Listeners
 send_icon.addEventListener("click", SendMsgUser);
